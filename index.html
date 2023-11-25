@@ -1,0 +1,1530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Daniels Bootstrap Portfolio - Template" />
+    <meta name="keywords" content="HTML(5), CSS(3), Bootstrap(5), Javascript" />
+    <meta name="author" content="Dev.Muhammad AbdilHamid" />
+    <title>Daniels Bootstrap Portfolio - Template</title>
+    <!-- ===== Google Fonts ===== -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800"
+      rel="stylesheet"
+    />
+    <!-- ===== Fav Icon ===== -->
+    <link rel="shortcut icon" href="imgs/00-favicon.ico" type="image/x-icon" />
+    <!-- ===== Bootstrap Stylesheet ===== -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+    <!-- ===== Bootstrap Icons ===== -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <!-- ===== Media Stylesheet ===== -->
+    <link rel="stylesheet" href="css/media.css" />
+    <!-- ===== Animation Stylesheet ===== -->
+    <link rel="stylesheet" href="css/animation.css" />
+    <!-- ===== Main Css Stylesheet ===== -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#navbar-example2"
+    tabindex="0"
+    id="content"
+  >
+    <!-- ===== Preloader with spinner ===== -->
+    <div id="preloader" class="">
+      <div
+        class="overlay w-100 h-100 position-fixed top-0 start-0 justify-content-center align-items-center d-flex"
+      >
+        <div class="camera-shutter w-100 h-100 bg-white"></div>
+      </div>
+      <div class="spinner-border p-3" role="status"></div>
+    </div>
+    <!-- ===== Start Desktop Nav Section ===== -->
+    <nav
+      id="navbar-example2"
+      class="navbar navbar-expand-lg navbar-desktop"
+      data-bs-theme="dark"
+    >
+      <div class="container d-flex align-items-center">
+        <h1 class="navbar-logo d-flex align-items-start m-0 p-0">
+          <a class="navbar-brand p-0 m-0 text-uppercase" href="index.html"
+            >daniels</a
+          >
+        </h1>
+        <div class="justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-lg-0 nav nav-pills">
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize active p-0 position-relative"
+                aria-current="page"
+                href="#home"
+                >home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize p-0 position-relative"
+                href="#about"
+                >about</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize p-0 position-relative"
+                href="#services"
+                >services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize p-0 position-relative"
+                href="#work"
+                >works</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize p-0 position-relative"
+                href="#clients"
+                >clients</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize p-0 position-relative"
+                href="#team"
+                >team</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize p-0 position-relative"
+                href="#contact"
+                >contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ===== End Desktop Nav Section ===== -->
+    <!-- ===== Start Mobile Nav Section ===== -->
+    <nav id="navbar-mobile" class="navbar bg-transparent navbar-mobile">
+      <div class="container-fluid px-4 align-content-center">
+        <h5 class="navbar-logo d-flex align-items-start m-0 p-0">
+          <a
+            class="navbar-brand p-0 m-0 text-uppercase text-white"
+            href="index.html"
+            >daniels</a
+          >
+        </h5>
+        <button
+          class="navbar-toggler border-0 p-0 shadow-none"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <i class="bi bi-list text-white mobile-menu-icon"></i>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5
+              class="offcanvas-title navbar-logo d-flex align-items-start m-0 p-0"
+              id="offcanvasNavbarLabel"
+            >
+              <a class="navbar-brand p-0 m-0 text-uppercase" href="index.html"
+                >daniels</a
+              >
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize p-0 position-relative"
+                  aria-current="page"
+                  href="#home"
+                  >home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize p-0 position-relative"
+                  href="#about"
+                  >about</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize p-0 position-relative"
+                  href="#services"
+                  >services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize p-0 position-relative"
+                  href="#work"
+                  >works</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize p-0 position-relative"
+                  href="#clients"
+                  >clients</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize p-0 position-relative"
+                  href="#team"
+                  >team</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize p-0 position-relative"
+                  href="#contact"
+                  >contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ===== End Mobile Nav Section ===== -->
+    <!-- ===== Start Hero Section ===== -->
+    <section id="home" class="hero-section position-relative overflow-hidden">
+      <div
+        class="bg-overlay position-absolute top-0 start-0 p-0 h-100 w-100"
+      ></div>
+      <div class="container">
+        <div
+          class="hero-content w-100 text-center position-absolute top-50 start-50 translate-middle"
+        >
+          <h2 class="hero-title mb-2 text-white">Hello</h2>
+          <p class="hero-para p-1 mb-0 overflow-hidden text-center text-white">
+            <span class="static-text">I Am </span>
+            <span
+              class="typed-text d-inline-block position-relative overflow-hidden"
+            ></span>
+          </p>
+          <div class="hero-social-icons d-flex justify-content-center gap-2">
+            <a
+              class="bg-black text-white d-flex justify-content-center align-items-center rounded-circle"
+              href="https://www.facebook.com/Muhammad.Abdulhamid.Dev?locale=ar_AR"
+              target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a
+              class="bg-black text-white d-flex justify-content-center align-items-center rounded-circle"
+              href="https://twitter.com/muhamed_eng"
+              target="_blank"
+              ><i class="bi bi-twitter-x"></i
+            ></a>
+            <a
+              class="bg-black text-white d-flex justify-content-center align-items-center rounded-circle"
+              href="mailto:muhammad.abdulhamid.dev@gmail.com"
+              target="_blank"
+            >
+              <i class="bi bi-envelope"></i>
+            </a>
+            <a
+              class="bg-black text-white d-flex justify-content-center align-items-center rounded-circle"
+              href="https://api.whatsapp.com/send/?phone=201278605890&text&type=phone_number&app_absent=0"
+              target="_blank"
+            >
+              <i class="bi bi-whatsapp"></i> </a
+            ><a
+              class="bg-black text-white d-flex justify-content-center align-items-center rounded-circle"
+              href="https://www.linkedin.com/in/muhammadabdulhamiddev/"
+              target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+            <a
+              class="bg-black text-white d-flex justify-content-center align-items-center rounded-circle"
+              href="https://github.com/MuhammadAbdulhamidDev?tab=repositories"
+              target="_blank"
+              ><i class="bi bi-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== End Hero Section ===== -->
+    <!-- ===== Start About Section ===== -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-lg-5">
+            <div class="about-img position-relative ps-4">
+              <img src="imgs/hero.jpg" alt="Personal Image" />
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="about-content mb-4">
+              <h3>About Me.</h3>
+              <span class="d-inline-block text-uppercase"
+                >UI / UX Designer &amp; Web Developer</span
+              >
+              <p>
+                I am <b>Jerry Daniels</b> Lorem Ipsum is simply dummy text of
+                the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever It has survived not only
+                five centuries, but also the leap into electronic but also the
+                leap into electronic typesetting, remaining essentially
+                unchanged. It was popularised in the 1960s with the release of
+                Letraset sheets containing
+              </p>
+              <div class="about-skills mt-4">
+                <div class="about-skill">
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Example with label"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar progress-bar-01 flex-row justify-content-between align-content-center"
+                    >
+                      <h6 class="mb-0">Web Design</h6>
+                      <span>95%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="about-skill">
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Example with label"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar progress-bar-02 flex-row justify-content-between"
+                    >
+                      <h6 class="mb-0">Branding</h6>
+                      <span>80%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="about-skill">
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Example with label"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar progress-bar-03 flex-row justify-content-between"
+                    >
+                      <h6 class="mb-0">Development</h6>
+                      <span>90%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="about-btns">
+                  <button type="button" class="btn about-btn">
+                    <a href="#">Download C.V</a>
+                  </button>
+                  <button type="button" class="btn about-btn">
+                    <a href="#">Contact Me</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== End About Section ===== -->
+    <!-- ===== Start Services Section ===== -->
+    <section id="services" class="services-section bg-gray section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="section-head text-center">
+              <h3 class="text-capitalize">services.</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row gy-4">
+          <div class="col-xl-4 col-md-6">
+            <div
+              class="service-box d-flex flex-column align-items-center justify-content-center"
+            >
+              <div
+                class="service-icon rounded-circle d-flex align-items-center justify-content-center mb-2"
+              >
+                <i class="bi bi-briefcase"></i>
+              </div>
+              <div class="service-content">
+                <h2 class="service-title text-capitalize text-center pt-3 pb-2">
+                  web design
+                </h2>
+                <p class="service-para text-center">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                  doloribus ipsa optio, veniam quos id fuga maxime voluptatum!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div
+              class="service-box d-flex flex-column align-items-center justify-content-center"
+            >
+              <div
+                class="service-icon rounded-circle d-flex align-items-center justify-content-center mb-2"
+              >
+                <i class="bi bi-binoculars-fill"></i>
+              </div>
+              <div class="service-content">
+                <h2 class="service-title text-capitalize text-center pt-3 pb-2">
+                  branding
+                </h2>
+                <p class="service-para text-center">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                  doloribus ipsa optio, veniam quos id fuga maxime voluptatum!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div
+              class="service-box d-flex flex-column align-items-center justify-content-center"
+            >
+              <div
+                class="service-icon rounded-circle d-flex align-items-center justify-content-center mb-2"
+              >
+                <i class="bi bi-umbrella-fill"></i>
+              </div>
+              <div class="service-content">
+                <h2 class="service-title text-capitalize text-center pt-3 pb-2">
+                  development
+                </h2>
+                <p class="service-para text-center">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                  doloribus ipsa optio, veniam quos id fuga maxime voluptatum!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div
+              class="service-box d-flex flex-column align-items-center justify-content-center"
+            >
+              <div
+                class="service-icon rounded-circle d-flex align-items-center justify-content-center mb-2"
+              >
+                <i class="bi bi-gem"></i>
+              </div>
+              <div class="service-content">
+                <h2 class="service-title text-capitalize text-center pt-3 pb-2">
+                  creative design
+                </h2>
+                <p class="service-para text-center">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                  doloribus ipsa optio, veniam quos id fuga maxime voluptatum!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div
+              class="service-box d-flex flex-column align-items-center justify-content-center"
+            >
+              <div
+                class="service-icon rounded-circle d-flex align-items-center justify-content-center mb-2"
+              >
+                <i class="bi bi-tv"></i>
+              </div>
+              <div class="service-content">
+                <h2 class="service-title text-capitalize text-center pt-3 pb-2">
+                  fully responsive
+                </h2>
+                <p class="service-para text-center">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                  doloribus ipsa optio, veniam quos id fuga maxime voluptatum!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div
+              class="service-box d-flex flex-column align-items-center justify-content-center"
+            >
+              <div
+                class="service-icon rounded-circle d-flex align-items-center justify-content-center mb-2"
+              >
+                <i class="bi bi-camera-fill"></i>
+              </div>
+              <div class="service-content">
+                <h2 class="service-title text-capitalize text-center pt-3 pb-2">
+                  retina ready
+                </h2>
+                <p class="service-para text-center">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                  doloribus ipsa optio, veniam quos id fuga maxime voluptatum!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== End Services Section ===== -->
+    <!-- ===== Start Portfolio Section ===== -->
+    <section id="work" class="portfolio-section section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="section-head text-center">
+              <h3 class="text-capitalize">portfolio.</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <ul
+            class="nav nav-pills mb-3 justify-content-center"
+            id="pills-tab"
+            role="tablist"
+          >
+            <li class="nav-item pt-0" role="presentation">
+              <button
+                class="nav-link p-0 portfolio-link active text-capitalize"
+                id="pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-home"
+                type="button"
+                role="tab"
+                aria-controls="pills-home"
+                aria-selected="true"
+              >
+                all
+              </button>
+            </li>
+            <li class="nav-item pt-0" role="presentation">
+              <button
+                class="nav-link p-0 portfolio-link text-capitalize"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                brand
+              </button>
+            </li>
+            <li class="nav-item pt-0" role="presentation">
+              <button
+                class="nav-link p-0 portfolio-link text-capitalize"
+                id="pills-contact-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-contact"
+                type="button"
+                role="tab"
+                aria-controls="pills-contact"
+                aria-selected="false"
+              >
+                design
+              </button>
+            </li>
+            <li class="nav-item pt-0" role="presentation">
+              <button
+                class="nav-link p-0 portfolio-link text-capitalize"
+                id="pills-disabled-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-disabled"
+                type="button"
+                role="tab"
+                aria-controls="pills-disabled"
+                aria-selected="false"
+              >
+                graphic
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-home"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+              tabindex="0"
+            >
+              <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-home"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab"
+                    tabindex="0"
+                  >
+                    <div class="card item-box rounded-0 position-relative">
+                      <div class="item-img">
+                        <img
+                          src="imgs/portfolio/1.jpg"
+                          class="card-img-top rounded-0"
+                          alt="item Image"
+                        />
+                        <div
+                          class="item-img-overlay d-flex align-items-center justify-content-center"
+                        >
+                          <div class="overlay-info text-center">
+                            <h6 class="mb-2">web design</h6>
+                            <div class="icons d-flex justify-content-evenly">
+                              <a href="#" class="rounded-circle">
+                                <i class="bi bi-browser-chrome"></i>
+                              </a>
+                              <a
+                                href="imgs/portfolio/1.jpg"
+                                class="rounded-circle"
+                              >
+                                <i class="bi bi-search-heart-fill"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-home"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab"
+                    tabindex="0"
+                  >
+                    <div class="card item-box rounded-0 position-relative">
+                      <div class="item-img">
+                        <img
+                          src="imgs/portfolio/2.jpg"
+                          class="card-img-top rounded-0"
+                          alt="item Image"
+                        />
+                        <div
+                          class="item-img-overlay d-flex align-items-center justify-content-center"
+                        >
+                          <div class="overlay-info text-center">
+                            <h6 class="mb-2">web design</h6>
+                            <div class="icons d-flex justify-content-evenly">
+                              <a href="#" class="rounded-circle">
+                                <i class="bi bi-browser-chrome"></i>
+                              </a>
+                              <a
+                                href="imgs/portfolio/1.jpg"
+                                class="rounded-circle"
+                              >
+                                <i class="bi bi-search-heart-fill"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-brand"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab"
+                    tabindex="0"
+                  >
+                    <div class="card item-box rounded-0 position-relative">
+                      <div class="item-img">
+                        <img
+                          src="imgs/portfolio/3.jpg"
+                          class="card-img-top rounded-0"
+                          alt="item Image"
+                        />
+                        <div
+                          class="item-img-overlay d-flex align-items-center justify-content-center"
+                        >
+                          <div class="overlay-info text-center">
+                            <h6 class="mb-2">web design</h6>
+                            <div class="icons d-flex justify-content-evenly">
+                              <a href="#" class="rounded-circle">
+                                <i class="bi bi-browser-chrome"></i>
+                              </a>
+                              <a
+                                href="imgs/portfolio/1.jpg"
+                                class="rounded-circle"
+                              >
+                                <i class="bi bi-search-heart-fill"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-home"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab"
+                    tabindex="0"
+                  >
+                    <div class="card item-box rounded-0 position-relative">
+                      <div class="item-img">
+                        <img
+                          src="imgs/portfolio/4.jpg"
+                          class="card-img-top rounded-0"
+                          alt="item Image"
+                        />
+                        <div
+                          class="item-img-overlay d-flex align-items-center justify-content-center"
+                        >
+                          <div class="overlay-info text-center">
+                            <h6 class="mb-2">web design</h6>
+                            <div class="icons d-flex justify-content-evenly">
+                              <a href="#" class="rounded-circle">
+                                <i class="bi bi-browser-chrome"></i>
+                              </a>
+                              <a
+                                href="imgs/portfolio/1.jpg"
+                                class="rounded-circle"
+                              >
+                                <i class="bi bi-search-heart-fill"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-home"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab"
+                    tabindex="0"
+                  >
+                    <div class="card item-box rounded-0 position-relative">
+                      <div class="item-img">
+                        <img
+                          src="imgs/portfolio/5.jpg"
+                          class="card-img-top rounded-0"
+                          alt="item Image"
+                        />
+                        <div
+                          class="item-img-overlay d-flex align-items-center justify-content-center"
+                        >
+                          <div class="overlay-info text-center">
+                            <h6 class="mb-2">web design</h6>
+                            <div class="icons d-flex justify-content-evenly">
+                              <a href="#" class="rounded-circle">
+                                <i class="bi bi-browser-chrome"></i>
+                              </a>
+                              <a
+                                href="imgs/portfolio/1.jpg"
+                                class="rounded-circle"
+                              >
+                                <i class="bi bi-search-heart-fill"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-brand"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab"
+                    tabindex="0"
+                  >
+                    <div class="card item-box rounded-0 position-relative">
+                      <div class="item-img">
+                        <img
+                          src="imgs/portfolio/6.jpg"
+                          class="card-img-top rounded-0"
+                          alt="item Image"
+                        />
+                        <div
+                          class="item-img-overlay d-flex align-items-center justify-content-center"
+                        >
+                          <div class="overlay-info text-center">
+                            <h6 class="mb-2">web design</h6>
+                            <div class="icons d-flex justify-content-evenly">
+                              <a href="#" class="rounded-circle">
+                                <i class="bi bi-browser-chrome"></i>
+                              </a>
+                              <a
+                                href="imgs/portfolio/1.jpg"
+                                class="rounded-circle"
+                              >
+                                <i class="bi bi-search-heart-fill"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-profile"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+              tabindex="0"
+            >
+              <div class="row">
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-home"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab"
+                    tabindex="0"
+                  >
+                    <div class="card item-box rounded-0 position-relative">
+                      <div class="item-img">
+                        <img
+                          src="imgs/portfolio/4.jpg"
+                          class="card-img-top rounded-0"
+                          alt="item Image"
+                        />
+                        <div
+                          class="item-img-overlay d-flex align-items-center justify-content-center"
+                        >
+                          <div class="overlay-info text-center">
+                            <h6 class="mb-2">web design</h6>
+                            <div class="icons d-flex justify-content-evenly">
+                              <a href="#" class="rounded-circle">
+                                <i class="bi bi-browser-chrome"></i>
+                              </a>
+                              <a
+                                href="imgs/portfolio/1.jpg"
+                                class="rounded-circle"
+                              >
+                                <i class="bi bi-search-heart-fill"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-brand"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab"
+                    tabindex="0"
+                  >
+                    <div class="card item-box rounded-0 position-relative">
+                      <div class="item-img">
+                        <img
+                          src="imgs/portfolio/6.jpg"
+                          class="card-img-top rounded-0"
+                          alt="item Image"
+                        />
+                        <div
+                          class="item-img-overlay d-flex align-items-center justify-content-center"
+                        >
+                          <div class="overlay-info text-center">
+                            <h6 class="mb-2">web design</h6>
+                            <div class="icons d-flex justify-content-evenly">
+                              <a href="#" class="rounded-circle">
+                                <i class="bi bi-browser-chrome"></i>
+                              </a>
+                              <a
+                                href="imgs/portfolio/1.jpg"
+                                class="rounded-circle"
+                              >
+                                <i class="bi bi-search-heart-fill"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-contact"
+              role="tabpanel"
+              aria-labelledby="pills-contact-tab"
+              tabindex="0"
+            >
+              <div class="row">
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-home"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab"
+                    tabindex="0"
+                  >
+                    <div class="card item-box rounded-0 position-relative">
+                      <div class="item-img">
+                        <img
+                          src="imgs/portfolio/2.jpg"
+                          class="card-img-top rounded-0"
+                          alt="item Image"
+                        />
+                        <div
+                          class="item-img-overlay d-flex align-items-center justify-content-center"
+                        >
+                          <div class="overlay-info text-center">
+                            <h6 class="mb-2">web design</h6>
+                            <div class="icons d-flex justify-content-evenly">
+                              <a href="#" class="rounded-circle">
+                                <i class="bi bi-browser-chrome"></i>
+                              </a>
+                              <a
+                                href="imgs/portfolio/1.jpg"
+                                class="rounded-circle"
+                              >
+                                <i class="bi bi-search-heart-fill"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-home"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab"
+                    tabindex="0"
+                  >
+                    <div class="card item-box rounded-0 position-relative">
+                      <div class="item-img">
+                        <img
+                          src="imgs/portfolio/5.jpg"
+                          class="card-img-top rounded-0"
+                          alt="item Image"
+                        />
+                        <div
+                          class="item-img-overlay d-flex align-items-center justify-content-center"
+                        >
+                          <div class="overlay-info text-center">
+                            <h6 class="mb-2">web design</h6>
+                            <div class="icons d-flex justify-content-evenly">
+                              <a href="#" class="rounded-circle">
+                                <i class="bi bi-browser-chrome"></i>
+                              </a>
+                              <a
+                                href="imgs/portfolio/1.jpg"
+                                class="rounded-circle"
+                              >
+                                <i class="bi bi-search-heart-fill"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-disabled"
+              role="tabpanel"
+              aria-labelledby="pills-disabled-tab"
+              tabindex="0"
+            >
+              <div class="row">
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-home"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab"
+                    tabindex="0"
+                  >
+                    <div class="card item-box rounded-0 position-relative">
+                      <div class="item-img">
+                        <img
+                          src="imgs/portfolio/1.jpg"
+                          class="card-img-top rounded-0"
+                          alt="item Image"
+                        />
+                        <div
+                          class="item-img-overlay d-flex align-items-center justify-content-center"
+                        >
+                          <div class="overlay-info text-center">
+                            <h6 class="mb-2">web design</h6>
+                            <div class="icons d-flex justify-content-evenly">
+                              <a href="#" class="rounded-circle">
+                                <i class="bi bi-browser-chrome"></i>
+                              </a>
+                              <a
+                                href="imgs/portfolio/1.jpg"
+                                class="rounded-circle"
+                              >
+                                <i class="bi bi-search-heart-fill"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-brand"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab"
+                    tabindex="0"
+                  >
+                    <div class="card item-box rounded-0 position-relative">
+                      <div class="item-img">
+                        <img
+                          src="imgs/portfolio/3.jpg"
+                          class="card-img-top rounded-0"
+                          alt="item Image"
+                        />
+                        <div
+                          class="item-img-overlay d-flex align-items-center justify-content-center"
+                        >
+                          <div class="overlay-info text-center">
+                            <h6 class="mb-2">web design</h6>
+                            <div class="icons d-flex justify-content-evenly">
+                              <a href="#" class="rounded-circle">
+                                <i class="bi bi-browser-chrome"></i>
+                              </a>
+                              <a
+                                href="imgs/portfolio/1.jpg"
+                                class="rounded-circle"
+                              >
+                                <i class="bi bi-search-heart-fill"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-home"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab"
+                    tabindex="0"
+                  >
+                    <div class="card item-box rounded-0 position-relative">
+                      <div class="item-img">
+                        <img
+                          src="imgs/portfolio/5.jpg"
+                          class="card-img-top rounded-0"
+                          alt="item Image"
+                        />
+                        <div
+                          class="item-img-overlay d-flex align-items-center justify-content-center"
+                        >
+                          <div class="overlay-info text-center">
+                            <h6 class="mb-2">web design</h6>
+                            <div class="icons d-flex justify-content-evenly">
+                              <a href="#" class="rounded-circle">
+                                <i class="bi bi-browser-chrome"></i>
+                              </a>
+                              <a
+                                href="imgs/portfolio/1.jpg"
+                                class="rounded-circle"
+                              >
+                                <i class="bi bi-search-heart-fill"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== End Portfolio Section ===== -->
+    <!-- ===== Start Carousel Section ===== -->
+    <section
+      id="clients"
+      class="carousel-section section-padding position-relative"
+    >
+      <div class="position-absolute top-0 start-0 p-0 h-100 w-100"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="section-head text-center">
+              <h3 class="text-capitalize">testimonials.</h3>
+            </div>
+          </div>
+        </div>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner text-center">
+            <div class="carousel-item active text-center">
+              <div class="client-img overflow-hidden">
+                <img
+                  src="imgs/1_New1.jpg"
+                  class="rounded-circle"
+                  alt="client's image"
+                />
+              </div>
+              <p class="carousel-para mx-auto px-lg-5">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+                voluptas assumenda eum saepe, praesentium sit quam? voluptas
+                assumenda eum saepe, praesentium sit quam?
+              </p>
+              <h6 class="carousel-title text-capitalize">alix smith</h6>
+              <span>Envato Customer</span>
+            </div>
+            <div class="carousel-item text-center">
+              <div class="client-img overflow-hidden">
+                <img
+                  src="imgs/1_New1.jpg"
+                  class="rounded-circle"
+                  alt="client's image"
+                />
+              </div>
+              <p class="carousel-para mx-auto px-lg-5">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+                voluptas assumenda eum saepe, praesentium sit quam? voluptas
+                assumenda eum saepe, praesentium sit quam?
+              </p>
+              <h6 class="carousel-title text-capitalize">alix smith</h6>
+              <span>Envato Customer</span>
+            </div>
+            <div class="carousel-item text-center">
+              <div class="client-img overflow-hidden">
+                <img
+                  src="imgs/1_New1.jpg"
+                  class="rounded-circle"
+                  alt="client's image"
+                />
+              </div>
+              <p class="carousel-para mx-auto px-lg-5">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+                voluptas assumenda eum saepe, praesentium sit quam? voluptas
+                assumenda eum saepe, praesentium sit quam?
+              </p>
+              <h6 class="carousel-title text-capitalize">alix smith</h6>
+              <span>Envato Customer</span>
+            </div>
+          </div>
+          <div class="carousel-indicators carousel-btns mt-5">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              aria-current="true"
+              aria-label="Slide 1"
+              class="active rounded-circle"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+              class="rounded-circle mx-2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+              class="rounded-circle"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== End Carousel Section ===== -->
+    <!-- ===== Start Numbers Section ===== -->
+    <section class="numbers-section section-padding">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-lg-3 col-sm-6">
+            <div
+              class="number-box d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="number-icon">
+                <i class="bi bi-people-fill"></i>
+              </div>
+              <div class="service-content">
+                <h2
+                  class="number-title number-title-01 text-center pt-1 pb-2"
+                ></h2>
+                <p class="number-para text-center text-capitalize">
+                  happy customers
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div
+              class="number-box d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="number-icon">
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+              </div>
+              <div class="service-content">
+                <h2
+                  class="number-title number-title-02 text-center pt-1 pb-2"
+                ></h2>
+                <p class="number-para text-center text-capitalize">
+                  happy customers
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div
+              class="number-box d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="number-icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <div class="service-content">
+                <h2
+                  class="number-title number-title-03 text-center pt-1 pb-2"
+                ></h2>
+                <p class="number-para text-center text-capitalize">
+                  lines of code
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div
+              class="number-box d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="number-icon">
+                <i class="bi bi-cloud-arrow-down-fill"></i>
+              </div>
+              <div class="service-content">
+                <h2
+                  class="number-title number-title-04 text-center pt-1 pb-2"
+                ></h2>
+                <p class="number-para text-center text-capitalize">
+                  files downloaded
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== End Numbers Section ===== -->
+    <!-- ===== Start Team Section ===== -->
+    <section id="team" class="team-section bg-gray section-padding">
+      <div class="container pb-5 pt-3">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="section-head text-center">
+              <h3 class="text-capitalize">Our Team.</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="card item-box rounded-0 position-relative">
+              <div class="item-img">
+                <img
+                  src="imgs/team/1.jpg"
+                  class="card-img-top rounded-0"
+                  alt="Member Image"
+                />
+                <div
+                  class="item-social-icons d-flex align-items-center justify-content-center position-absolute"
+                >
+                  <ul class="social-list list-unstyled p-0 m-0 d-flex gap-3">
+                    <li>
+                      <a href="#"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-pinterest"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body text-center">
+                <h4 class="card-title mt-2 text-white">John Doe</h4>
+                <h5 class="text-uppercase fw-bold text-white">
+                  Front-End Developer
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card item-box rounded-0 position-relative">
+              <div class="item-img">
+                <img
+                  src="imgs/team/2.jpg"
+                  class="card-img-top rounded-0"
+                  alt="Member Image"
+                />
+                <div
+                  class="item-social-icons d-flex align-items-center justify-content-center position-absolute"
+                >
+                  <ul class="social-list list-unstyled p-0 m-0 d-flex gap-3">
+                    <li>
+                      <a href="#"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-pinterest"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body text-center">
+                <h4 class="card-title mt-2 text-white">John Doe</h4>
+                <h5 class="text-uppercase fw-bold text-white">
+                  Front-End Developer
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card item-box rounded-0 position-relative">
+              <div class="item-img">
+                <img
+                  src="imgs/team/1.jpg"
+                  class="card-img-top rounded-0"
+                  alt="Member Image"
+                />
+                <div
+                  class="item-social-icons d-flex align-items-center justify-content-center position-absolute"
+                >
+                  <ul class="social-list list-unstyled p-0 m-0 d-flex gap-3">
+                    <li>
+                      <a href="#"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-pinterest"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body text-center">
+                <h4 class="card-title mt-2 text-white">John Doe</h4>
+                <h5 class="text-uppercase fw-bold text-white">
+                  Front-End Developer
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== End Team Section ===== -->
+    <!-- ===== Start Contact Section ===== -->
+    <section
+      id="contact"
+      class="contact-section section-padding position-relative"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="section-head text-center">
+              <h3 class="text-capitalize">contact us.</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-offset-1 col-md-10">
+            <div class="row justify-content-center">
+              <div class="col-lg-4 col-md-6">
+                <div
+                  class="contact-box d-flex flex-column align-items-center justify-content-center"
+                >
+                  <div
+                    class="contact-icon rounded-circle d-flex align-items-center justify-content-center mb-1"
+                  >
+                    <i class="bi bi-envelope-at-fill"></i>
+                  </div>
+                  <div class="contact-content">
+                    <h6 class="contact-title text-capitalize text-center pt-2">
+                      Email
+                    </h6>
+                    <p class="contact-para text-center">Support@website.com</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div
+                  class="contact-box d-flex flex-column align-items-center justify-content-center"
+                >
+                  <div
+                    class="contact-icon rounded-circle d-flex align-items-center justify-content-center mb-1"
+                  >
+                    <i class="bi bi-telephone-fill"></i>
+                  </div>
+                  <div class="contact-content">
+                    <h6 class="contact-title text-capitalize text-center pt-2">
+                      Phone
+                    </h6>
+                    <p class="contact-para text-center">+20 010 2093 1881</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div
+                  class="contact-box d-flex flex-column align-items-center justify-content-center"
+                >
+                  <div
+                    class="contact-icon rounded-circle d-flex align-items-center justify-content-center mb-1"
+                  >
+                    <i class="bi bi-send-arrow-up-fill"></i>
+                  </div>
+                  <div class="contact-content">
+                    <h6
+                      class="contact-title text-capitalize text-center pt-2 mb-2 fs-6 fw-bold"
+                    >
+                      Address
+                    </h6>
+                    <p class="contact-para text-center">
+                      6834 Hollywood Blvd - Los Angeles CA
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-div mt-5">
+              <form action="">
+                <div class="mb-3 d-flex gap-4">
+                  <input
+                    type="text"
+                    class="form-control input-text rounded-0 py-2 px-3 w-100 border-0"
+                    id="exampleFormControlInput1"
+                    placeholder="Name"
+                  />
+                  <input
+                    type="email"
+                    class="form-control input-text rounded-0 py-2 px-3 w-100 border-0"
+                    id="exampleFormControlInput1"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control input-text rounded-0 py-2 px-3 w-100 border-0"
+                    id="exampleFormControlTextarea1"
+                    rows="5"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="form-btn btn btn-lg text-capitalize border-0 mt-1"
+                >
+                  submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== End Contact Section ===== -->
+    <!-- ===== Start Footer Section ===== -->
+    <footer class="py-4 text-center text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="copyright py-2">
+              Copy Right 2023 &copy; By Daniels - All Rights Reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ===== End Footer Section ===== -->
+    <!-- ===== Back To Top Button ===== -->
+    <button id="myBtn" class="position-fixed border-0 rounded-circle">
+      <i class="bi bi-arrow-up-short text-white"></i>
+    </button>
+    <!-- ===== Bootstrap Js File ===== -->
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- ===== Main Js File ===== -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
