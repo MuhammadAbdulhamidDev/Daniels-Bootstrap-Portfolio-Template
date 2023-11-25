@@ -29,9 +29,7 @@
     display: none;
   }
   .navbar-mobile {
-    display: block;
-    position: fixed !important;
-    top: 0;
+    display: block !important;
   }
   .mobile-menu-icon {
     font-size: 1.75rem;
